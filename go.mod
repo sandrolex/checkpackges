@@ -1,4 +1,4 @@
-module github.com/SymphonyOSF/InfoSec/checkpackages
+module github.com/checkpackages
 
 go 1.14
 
