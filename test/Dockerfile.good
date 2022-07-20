@@ -1,0 +1,7 @@
+# syntax = docker/dockerfile:1.2
+FROM debian:buster-slim 
+
+RUN apt-get update -y && \
+    DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
+    vim curl apache2 wget python3 vim 
+
